@@ -1,0 +1,373 @@
+/* RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ========================= */
+/* BACKGROUNDS */
+/* ========================= */
+
+/* Dark background (dashboard, login, etc.) */
+.bg-image {
+    background: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef') no-repeat center center/cover;
+    min-height: 100vh;
+}
+
+/* Dark overlay */
+.page-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    padding: 30px 0;
+}
+
+/* Light background (booking page) */
+.light-bg {
+    background: url('https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?q=80&w=1920') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* Light overlay */
+.light-overlay {
+    background: transparent;
+}
+
+/* ========================= */
+/* NAVBAR */
+/* ========================= */
+
+.navbar {
+    background: #003580;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ========================= */
+/* TEXT */
+/* ========================= */
+
+.welcome-text {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+/* ========================= */
+/* BUTTONS */
+/* ========================= */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn.secondary {
+    background: #28a745;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.quick-actions {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.quick-actions a {
+    text-decoration: none;
+}
+
+/* ========================= */
+/* SEARCH BOX */
+/* ========================= */
+
+.search-box {
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.search-box input,
+.search-box select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ========================= */
+/* CARDS */
+/* ========================= */
+
+.card {
+    display: flex;
+    background: white;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-left img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-right {
+    padding: 15px;
+    text-align: left;
+    color: #222;
+}
+
+.card-right h3 {
+    color: #000;
+}
+
+/* STATUS COLORS */
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.status.Pending {
+    background: orange;
+}
+
+.status.Approved {
+    background: green;
+}
+
+.status.Rejected {
+    background: red;
+}
+
+/* ========================= */
+/* FORM */
+/* ========================= */
+
+form {
+    background: white;
+    padding: 25px;
+    width: 320px;
+    margin: 30px auto;
+    border-radius: 10px;
+    color: black;
+}
+
+input,
+select {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* ========================= */
+/* LOGIN / REGISTER */
+/* ========================= */
+
+.login-page h2 {
+    color: white;
+}
+
+.login-page p {
+    color: white;
+}
+
+.login-page a {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+/* ========================= */
+/* TABLE (HISTORY) */
+/* ========================= */
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #003580;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* ========================= */
+/* LINKS */
+/* ========================= */
+
+.back-home {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-home:hover {
+    text-decoration: underline;
+}
+
+/* HOME PAGE ONLY */
+.home-bg {
+    background: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.home-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+
+.home-overlay h1 {
+    font-size: 40px;
+}
+
+.home-overlay p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.home-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.home-links a:hover {
+    background: #0056b3;
+}
+
+.login-container {
+    width: 320px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: white;
+}
+
+.login-container p {
+    color: white;
+}
+
+button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.no-data {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.no-data-card {
+    background: white;
+    color: black;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.admin-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.admin-header h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.admin-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
