@@ -2,20 +2,20 @@
 
 ### Home Page
 
-![Home](screenshots/home.png)
+![Home](home.png)
 
 ### Login
 
-![Login](screenshots/login.png)
+![Login](login.png)
 
 ### Register
 
-![Register](screenshots/register.png)
+![Register](register.png)
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 
 ### Admin Dashboard
 
-![Admin](screenshots/admin-dashboard.png)
+![Admin](admin-dashboard.png)
